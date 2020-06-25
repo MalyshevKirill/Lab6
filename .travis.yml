@@ -13,5 +13,6 @@ deploy:
   skip_cleanup: true
   on:
     repo: MalyshevKirill/Lab6
+    
     branch: dev
     tags: true
