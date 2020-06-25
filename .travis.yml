@@ -8,10 +8,9 @@ script:
   
 deploy:
   provider: releases
-  prerelease: true
   api_key: $GITHUB_TOKEN
   skip_cleanup: true
   on:
     repo: MalyshevKirill/Lab6
-    branch: dev
+    branch: master
     tags: true
